@@ -2,6 +2,6 @@
 #include <linux/syscalls.h>
 
 SYSCALL_DEFINE0(hello){
-	printk(KERNINFO "HELLO WORLD\n");
+	printk(KERN_INFO "HELLO WORLD\n");
 	return 0;
 }
