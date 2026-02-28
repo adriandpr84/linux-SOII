@@ -397,8 +397,8 @@
 470	common	listns			sys_listns
 471	common	rseq_slice_yield	sys_rseq_slice_yield
 472	common	hello			sys_hello
-472	common	get_task_count		sys_get_task_count
-472	common	encrypt_msg		sys_encrypt_msg
+473	common	get_task_count		sys_get_task_count
+474	common	encrypt_msg		sys_encrypt_msg
 #
 # Due to a historical design error, certain syscalls are numbered differently
 # in x32 as compared to native x86_64.  These syscalls have numbers 512-547.
